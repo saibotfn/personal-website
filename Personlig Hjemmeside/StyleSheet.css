@@ -1,0 +1,52 @@
+
+body {
+  background-color: #28334AFF;
+  margin: 0;
+}
+/* Ændre farven når man holder over den */
+.topnav a:hover {
+  
+  color: #da2a2a;
+}
+.Navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  outline-style: auto;
+  outline-width: 1px;
+  outline-color: black;
+}
+.NavbarElements {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  align-items: center;
+}
+.NavbarLeft {
+  display: flex;
+  justify-content: flex-start;
+  color: rgb(169, 187, 70);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
+.NavbarRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: rgb(169, 187, 70);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;  
+  text-align: center;
+}
